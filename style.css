@@ -59,7 +59,7 @@ main {
     background-color: var(--white);
     height: 100%;
     padding: 2rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
     gap: 4rem;
     justify-content: center;
 }
@@ -187,7 +187,7 @@ form {
     background-color: var(--white);
     width: 70%;
     padding: 4rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
     margin-inline: auto;
     display: grid;
     gap: 1.5rem;
