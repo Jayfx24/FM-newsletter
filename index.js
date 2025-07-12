@@ -22,7 +22,7 @@ const handleSubmit = (e) => {
   userEmail.textContent = email;
   signUpPage.classList.toggle("hide");
   successPage.classList.toggle("hide");
-  form.clear()
+  form.reset()
 
 };
 
