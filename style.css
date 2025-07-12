@@ -185,13 +185,14 @@ form {
 /*  */
 .sign-up-success {
     background-color: var(--white);
-    width: 50%;
+    width: 70%;
     padding: 4rem;
     border-radius: 3rem;
     margin-inline: auto;
     display: grid;
     gap: 1.5rem;
     text-align: start;
+    justify-content: center;
 
 }
 

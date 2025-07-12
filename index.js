@@ -20,9 +20,9 @@ const handleSubmit = (e) => {
   const formData = new FormData(form);
   const email = formData.get("email");
   userEmail.textContent = email;
-  form.clear()
   signUpPage.classList.toggle("hide");
   successPage.classList.toggle("hide");
+  form.clear()
 
 };
 
