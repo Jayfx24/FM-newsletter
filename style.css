@@ -163,9 +163,9 @@ input:active {
 }
 
 input:user-invalid{
-    border: 1px solid red;
+    border: 1px solid var(--clr-primary);
     outline: none;
-    color: red;
+    color: var(--clr-primary);
     background-color: hsla(4, 100%, 67%,0.1);
 
 }
@@ -319,6 +319,7 @@ p{
 .attribution {
     font-size: 11px;
     text-align: center;
+    color:var(--white)
 }
 
 .attribution a {
